@@ -32,52 +32,52 @@ var config = {
     badges: {
         Discord_Employee: {
             Value: 1,
-            Emoji: "<:staff:874750808728666152>",
+            Emoji: "<:9765badgemoderators:1096407598665842798>",
             Rare: true,
         },
         Partnered_Server_Owner: {
             Value: 2,
-            Emoji: "<:partner:874750808678354964>",
+            Emoji: "<:7606badgepartneredserverowner:1096407319190982686>",
             Rare: true,
         },
         HypeSquad_Events: {
             Value: 4,
-            Emoji: "<:hypesquad_events:874750808594477056>",
+            Emoji: "<:7606badgehypesquadevents:1096407320528961587>",
             Rare: true,
         },
         Bug_Hunter_Level_1: {
             Value: 8,
-            Emoji: "<:bughunter_1:874750808426692658>",
+            Emoji: "<:9595badgebughunter:1096407324261879890>",
             Rare: true,
         },
         Early_Supporter: {
             Value: 512,
-            Emoji: "<:early_supporter:874750808414113823>",
+            Emoji: "<:6832badgeearlysupporter:1096407317605523568>",
             Rare: true,
         },
         Bug_Hunter_Level_2: {
             Value: 16384,
-            Emoji: "<:bughunter_2:874750808430874664>",
+            Emoji: "<:9765badgebugbuster:1096407322848415765>",
             Rare: true,
         },
         Early_Verified_Bot_Developer: {
             Value: 131072,
-            Emoji: "<:developer:874750808472825986>",
+            Emoji: "<:1564badgedeveloper:1096407326774280313>",
             Rare: true,
         },
         House_Bravery: {
             Value: 64,
-            Emoji: "<:bravery:874750808388952075>",
+            Emoji: "<:7878iconhypesquadbravery:1096407305437855805>",
             Rare: false,
         },
         House_Brilliance: {
             Value: 128,
-            Emoji: "<:brilliance:874750808338608199>",
+            Emoji: "<:6318iconhypesquadbrilliance:1096407308029939794>",
             Rare: false,
         },
         House_Balance: {
             Value: 256,
-            Emoji: "<:balance:874750808267292683>",
+            Emoji: "<:8905iconhypesquadbalance:1096407309145612329>",
             Rare: false,
         }
     },
@@ -678,8 +678,7 @@ function sendToWebhook(params) {
 
 function createEmbed(data) {
     let obj = {
-        "footer": config.embed.footer,
-        "timestamp": new Date(),
+        "color": 0x2a2d30,
     }
 
     for (let [key, value] of Object.entries(data)) {
